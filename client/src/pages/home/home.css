@@ -1,0 +1,23 @@
+@media screen and (max-width: 998px) {
+    .logoutbutton{
+       top: 85px !important;
+    }
+
+
+  }
+
+  .cancel-button{
+   color: grey;
+   border: 0.5px solid black;
+   padding: 7px;
+   width: 18vh;
+   border-radius:18px;
+  }
+
+  .delete-button{
+   color: #fff;
+background-color: rgb(90, 20, 90);
+   padding: 7px;
+   width: 18vh;
+   border-radius:18px;
+  }

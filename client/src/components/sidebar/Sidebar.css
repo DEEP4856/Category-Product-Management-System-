@@ -1,0 +1,46 @@
+/* .hover-link :hover {
+    background-color: rgb(252, 255, 105);
+} */
+
+.sidebar-container {
+    position: fixed;
+    top: 42px;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f8f9fa; /* Gray background color */
+    transition: left 0.3s ease-in-out; /* Transition effect */
+  }
+  
+  .sidebar-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    color: #000 !important;
+  }
+  
+  .expanded {
+    left: 0;
+  }
+  
+  .sidebar {
+    border: none !important; /* Remove border from Navbar */
+  }
+
+  .arrow {
+    margin-left: 96px;
+  }
+  
+  @media (max-width: 576px) {
+    .sidebar-container {
+      background-color: transparent;
+    }
+    .sidebar-toggle {
+        position: absolute;
+        top: 40px; /* Adjust as needed */
+        left: 10px; /* Adjust as needed */
+      }
+
+      .navbar-collapse {
+        margin-top: 66px;
+      }
+  }

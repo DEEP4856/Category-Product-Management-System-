@@ -1,0 +1,26 @@
+.header{
+    background-color: purple !important;
+    /* height: 60px; */
+    padding: 0px 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+
+     
+
+} 
+/* .logo{
+    color:white !important;
+
+} */
+.profile_logo{
+    color: white !important;
+    
+}
+.top_buttons{
+    display: grid;
+    
+    margin: 20px;
+    
+
+}

@@ -1,0 +1,73 @@
+
+.catagory-title{
+    margin-left: 18vh;
+}
+   
+    @media (min-width: 1168px) {
+        .catagory-title{
+            margin-right: 98vh;
+        }
+    }
+    /* @media  (max-width:965px ) {
+        .catagory-title{
+        text-align: end;
+    }
+} */
+
+.category-list-card {
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+    margin-top: 20px;
+    
+    transition: background-color 0.3s ease;
+    cursor: pointer !important;
+}
+
+.category-list-card:hover {
+    background-color:#ffffcc !important; /* Change the hover background color here */
+}
+
+.text-right{
+    font-weight: 500;
+}
+.list-heading{
+    font-weight: 600;
+}
+
+/* .border-purple {
+    border-color: #6f42c1;
+    color: #6f42c1;
+  }
+  
+  .border-purple-transparent {
+    border-color: transparent;
+    color: #6f42c1;
+  }
+  
+  .border-purple:hover {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .border-purple-transparent:hover {
+    background-color: transparent;
+    color: #6f42c1;
+  }
+   */
+
+   .cancel-button{
+    color: grey !important;
+    border: 0.5px solid black !important;
+    padding: 7px !important;
+    width: 18vh !important;
+    border-radius:18px !important;
+   }
+
+   .delete-button{
+    color: #fff !important;
+ background-color: rgb(90, 20, 90) !important;
+    padding: 7px !important;
+    width: 18vh !important;
+    border-radius:18px !important;
+   }

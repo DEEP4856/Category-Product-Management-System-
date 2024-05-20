@@ -1,0 +1,16 @@
+.login{
+    background-image: url(/project/client/src/components/images/image\ 293.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: currentcolor;
+    height: 110vh
+}
+
+@media (max-width: 576px) {
+    
+    .p-4{
+        left: -15px !important;
+      }
+
+    }

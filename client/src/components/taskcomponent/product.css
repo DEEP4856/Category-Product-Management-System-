@@ -1,0 +1,19 @@
+.produtbox{
+
+    @media   (min-width:970px ) {
+         margin-left: 150px;
+    }
+}
+
+.product_cvardbox{
+    @media (min-width:965px) {
+        margin-left: 17vh;
+    }
+}
+
+
+.card_fromleft{
+    @media (min-width:970px) {
+        margin-left: 14vh !important;
+    }
+}
